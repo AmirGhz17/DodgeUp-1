@@ -32,6 +32,8 @@ public class Star implements Objectinterface{
             speedY-=400;
             Main.stars.add(new Star(new Random().nextInt(1,650),speedY));
             speedY-=400;
+            Main.stars.add(new Star(new Random().nextInt(1,650),speedY));
+            speedY-=400;
         }
     }
     private static PImage starimage;
@@ -40,7 +42,7 @@ public class Star implements Objectinterface{
         starimage = Main.pApplet.loadImage("Star2.png");
         Random random = new Random();
 
-        for (int i=0 ; i<45 ; i++) {
+        for (int i=0 ; i<100 ; i++) {
             Main.stars.add(new Star(random.nextInt(10, 650), random.nextInt(-10000, -100 )));
         }
     }

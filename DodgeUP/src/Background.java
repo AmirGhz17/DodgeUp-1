@@ -9,7 +9,7 @@ public class Background {
     public static void loadBackgrounds () {
 
 
-            background = Main.pApplet.loadImage("BACKGROUND5.jpg");
+            background = Main.pApplet.loadImage("BackGround.jpg");
 
     }
     public static void loadBackgrounds1 () {
@@ -20,7 +20,7 @@ public class Background {
 
     public static void loadBackgrounds2 () {
 
-        background2=Main.pApplet.loadImage("winingback2.jpg");
+        background2=Main.pApplet.loadImage("BackGround.jpg");
 
     }
 

@@ -128,7 +128,10 @@ public class Main extends PApplet {
 
             textSize(30);
             fill(255);
-            text("score = "+ (score+ passed),300,200);
+            text("score = "+ (score+ passed),300,400);
+            textSize(60);
+            fill(255);
+            text("):G A M E  O V E R:(",125,200);
             textSize(50);
 
             if(mouseX<300 && mouseX>150 && mouseY>250 && mouseY<300){
@@ -151,7 +154,12 @@ public class Main extends PApplet {
 
             textSize(30);
             fill(255);
-            text("score = "+ (score+ passed),300,150);
+            text("score = "+ (score+ passed),300,400);
+
+            textSize(60);
+            fill(255);
+            text("(:Y O U  W I N:) ",200,200);
+
             textSize(50);
 
             if(mouseX<300 && mouseX>150 && mouseY>250 && mouseY<300){
