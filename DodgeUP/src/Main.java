@@ -86,10 +86,19 @@ public class Main extends PApplet {
             Star.moveStar(speed);
             Heart.showHeart(hearts);
             Heart.moveHeart(speed);
-            if(score>120){
-                speed=13;
+            if(score>400){
+                speed=25;
+            }
+            else if(score>300){
+                speed=20;
+            }
+            else if(score>200){
+                speed=17;
+            }
+            else if(score>120){
+                speed=15;
             }else if(score>90){
-                speed=11;
+                speed=13;
             }else if(score>60){
                 speed=10;
             }else if(score>30){

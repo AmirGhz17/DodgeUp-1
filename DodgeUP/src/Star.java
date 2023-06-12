@@ -18,8 +18,10 @@ public class Star implements Objectinterface{
     }
 
     public static void makeStars(){
-        for (int i=0;i<7;i++){
+        for (int i=0;i<6;i++){
 
+            Main.stars.add(new Star(new Random().nextInt(1,650),speedY));
+            speedY-=400;
             Main.stars.add(new Star(new Random().nextInt(1,650),speedY));
             speedY-=400;
             Main.stars.add(new Star(new Random().nextInt(1,650),speedY));
@@ -42,7 +44,7 @@ public class Star implements Objectinterface{
         starimage = Main.pApplet.loadImage("Star2.png");
         Random random = new Random();
 
-        for (int i=0 ; i<100 ; i++) {
+        for (int i=0 ; i<80 ; i++) {
             Main.stars.add(new Star(random.nextInt(10, 650), random.nextInt(-10000, -100 )));
         }
     }
